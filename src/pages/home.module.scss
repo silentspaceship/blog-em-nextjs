@@ -5,9 +5,11 @@
   height: calc(100vh - 5rem);
 
   display: flex;
-  // flex: 1;
   align-items: center;
   justify-content: space-between;
+
+  transition: transform 0.2s;
+  overflow: hidden;
 }
 
 .hero {
@@ -37,5 +39,9 @@
     span {
       color: var(--cyan-500);
     }
+  }
+
+  button {
+    margin-top: 2.5rem;
   }
 }
